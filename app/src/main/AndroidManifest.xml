@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.onyxpray.mov">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-permission-sdk-23 android:name="android.permission.INTERNET" />
+    <uses-permission-sdk-23 android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission-sdk-23 android:name="android.permission.CAMERA" />
+    <uses-permission-sdk-23 android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-feature
+        android:name="android.hadware.camera"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MOV.noActionBar">
+        <activity android:name=".LogoutActivity"></activity>
+        <activity android:name=".DetailActivity" />
+        <activity android:name=".Checkout.PilihBangkuActivity" />
+        <activity android:name=".Checkout.CheckoutActivity" />
+        <activity android:name=".Checkout.CheckoutSuccessActivity" />
+        <activity android:name=".TiketActivity" />
+        <activity android:name=".EditProfileActivity" />
+        <activity android:name=".MyWalletActivity" />
+        <activity android:name=".HistoryActivity" />
+        <activity android:name=".Home.HomeScreenActivity" />
+        <activity android:name=".Onboarding.OnBoarding3Activity" />
+        <activity android:name=".Onboarding.OnBoarding2Activity" />
+        <activity android:name=".Onboarding.OnBoarding1Activity" />
+        <activity android:name=".SignIn.SignInActivity" />
+        <activity android:name=".SignUp.SignUpActivity" />
+        <activity android:name=".SignUp.SignUpPhotoActivity" />
+        <activity android:name=".SplashScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

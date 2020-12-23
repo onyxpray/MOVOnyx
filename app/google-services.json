@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "331563012947",
+    "project_id": "mov-onyx",
+    "storage_bucket": "mov-onyx.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:331563012947:android:be8b5bdab894a94b5a87a6",
+        "android_client_info": {
+          "package_name": "com.onyxpray.mov"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "331563012947-a54rcneq3u69sjpbonevl16ldhhf6fs3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwWu-8q7NJSBANpVmIRjhtdYeI1iGtCfM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "331563012947-a54rcneq3u69sjpbonevl16ldhhf6fs3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
